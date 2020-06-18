@@ -41,11 +41,11 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\openssl\include"
+				AdditionalIncludeDirectories="D:\OpenSSL_withVS2008_1.1.1g\Win32_MT_Debug\include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
-				RuntimeLibrary="3"
+				RuntimeLibrary="1"
 				UsePrecompiledHeader="2"
 				WarningLevel="3"
 				DebugInformationFormat="4"
@@ -62,7 +62,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories=""
+				AdditionalLibraryDirectories="D:\OpenSSL_withVS2008_1.1.1g\Win32_MT_Debug\lib"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"

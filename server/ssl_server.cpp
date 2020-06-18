@@ -8,6 +8,11 @@
 #include <openssl/err.h>
 #include <openssl/ssl.h>
 
+#pragma comment(lib, "ws2_32.lib")
+#pragma comment(lib, "libssl.lib")
+#pragma comment(lib, "libcrypto.lib")
+#pragma comment(lib, "Crypt32.lib")
+
 using namespace std::tr1::placeholders;
 
 ssl_server::ssl_server(const std::string &local_address,
